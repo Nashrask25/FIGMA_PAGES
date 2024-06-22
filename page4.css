@@ -1,0 +1,160 @@
+:root{
+    --figma-primary:#1E0E62;
+    --figma-secondary:#151439;
+    --figma-button1:#25DAC5;
+    --figma-background:#FFFFFF;
+    --figma-input-border:#EBEAED;
+    --figma-input-text:#151439;
+    --figma-dmSans: 'DM Sans', sans-serif;
+    --figma-poppins: 'Poppins', sans-serif;
+    ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body,
+html{
+    font-family: var(--figma-dmSans);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color:  var(--figma-secondary);
+    justify-content: space-around;
+}
+.grid-one{
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left img#one{
+    width: 106px;
+    height: auto;
+}
+.nav-left img#two{
+    width: 13px;
+    height: auto;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    color: var(--figma-secondary);
+}
+.nav-left a{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    color: var(--figma-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+nav button{
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: var(--figma-button1);
+    border: none;
+    color: var(--figma-background);
+    font-size: 18px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+  }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    gap: 100px;
+    margin:50px auto;
+}
+.div-left{
+    display: flex;
+    gap: 77px;
+    align-items: self-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.left-one{
+    width: 600px;
+    height: 156px;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: var(--figma-primary);
+}
+.left-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.left-two input{
+    width: 470px;
+    height: 60px;
+    border: 2px solid var(--figma-input-border);
+    border-radius: 100px;
+}
+::placeholder{
+    color: var(--figma-input-text);
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-two button{
+    width: 470px;
+    height: 60px;
+    border-radius:100px;
+    background-color: var(--figma-button1);
+    color: var(--figma-background);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.left-two a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--figma-secondary);
+}
+.div-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+}
+.div-right img{
+    width: 470px;
+    height: 265px;
+}
+.div-right p{
+    width: 350px;
+    height: 112px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--figma-secondary);
+}

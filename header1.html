@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root{
+            --figma-primary:#2F1893;
+            --figma-secondary:#FFFF;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body,
+        html{
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background: var(--figma-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 1px 1px rgba(216, 212, 212, 0.937);
+            color:  #1E0E62;
+        }
+        .grid{
+            width: 100%;
+            max-width: 1366px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-left input {
+            width: 200px;
+            height: 40px;
+            border: 2px solid var(--figma-secondary);
+            border-radius: 100px;
+            background-color: var(--figma-primary);
+            outline: none;
+            padding: 15px;
+            color: var(--figma-secondary);
+        }
+        ::placeholder{
+            color: var(--figma-secondary);
+        }
+        .nav-mid{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-mid img{
+            width: 111px;
+            height: auto;
+        }
+        .nav-right ul{
+            list-style: none;
+            color: var(--figma-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="grid">
+            <div class="nav-left">
+                <input type="search" name="search" placeholder="search..">
+            </div>
+            <div class="nav-mid">
+                <img src="D:\projects\figma2\img2\Startup 3.png">
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a>Subscribe</a></li>
+                    <li><a>Sign in</a></li>
+                    <li><a>Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
